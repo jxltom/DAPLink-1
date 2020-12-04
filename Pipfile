@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+project-generator = "==0.9.13"
+mbed-ls = "==1.6.2"
+pyserial = "*"
+pyocd = "==0.16.0"
+requests = "*"
+intelhex = "*"
+six = "*"
+enum34 = "*"
+pyusb = "*"
+mbed-cli = "==1.8.2"
+bs4 = "*"
+numpy = "*"
+pyelftools = "*"
+fuzzywuzzy = "*"
+jsonschema = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
+
+[pipenv]
+allow_prereleases = true
