@@ -25,19 +25,4 @@
 // This GPIO configuration is only valid for the SAM3U2C HIC
 COMPILER_ASSERT(DAPLINK_HIC_ID == DAPLINK_HIC_ID_SAM3U2C);
 
-// DAP LED
-#define PIN_DAP_LED_PORT        PIOA
-#define PIN_DAP_LED_BIT         29
-#define PIN_DAP_LED             (1UL << PIN_DAP_LED_BIT)
-
-// MSD LED
-#define PIN_MSD_LED_PORT        PIOA
-#define PIN_MSD_LED_BIT         29
-#define PIN_MSD_LED             (1UL << PIN_MSD_LED_BIT)
-
-// CDC LED
-#define PIN_CDC_LED_PORT        PIOA
-#define PIN_CDC_LED_BIT         29
-#define PIN_CDC_LED             (1UL << PIN_CDC_LED_BIT)
-
 #endif
