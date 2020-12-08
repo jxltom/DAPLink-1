@@ -27,3 +27,6 @@ python_version = "2.7"
 
 [pipenv]
 allow_prereleases = true
+
+[scripts]
+build-sam3u2c-mkit = "tools/mbedcli_compile.py sam3u2c_mkit_dk_dongle_nrf5x_if"
